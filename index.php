@@ -23,7 +23,7 @@ include('validate.php');
            <label for="mail">Email</label>
            <input type="text" name="mail" class="form-control">
            <label for="note">Note</label>
-           <input type="text" name="note" class="form-control form-control-lg mb-2">
+           <textarea rows="4" cols="50" name="note" class="form-control form-control-lg mb-2" style="height:100px"></textarea>
            <div class="text-center"> 
            <input type="submit" name="submit" class="btn btn-secondary btn-lg"></button>
            </div>
