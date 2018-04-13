@@ -1,3 +1,7 @@
+<?php
+include('conn.php');
+include('validate.php');
+?>
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
@@ -12,13 +16,13 @@
     <body>
     <div class="p-3 mb-2 bg-primary text-white">
        <form action="" method="post" style="width: 500px; margin: auto">
-           <label for="fname" id="name">First Name</label>
+           <label for="fname">First Name</label>
            <input type="text" name="fname" class="form-control">
-           <label for="lname" id="lname">Last Name</label>
+           <label for="lname">Last Name</label>
            <input type="text" name="lname" class="form-control">
-           <label for="mail" id="mail">Email</label>
+           <label for="mail">Email</label>
            <input type="text" name="mail" class="form-control">
-           <label for="note" id="note">Note</label>
+           <label for="note">Note</label>
            <input type="text" name="note" class="form-control form-control-lg mb-2">
            <div class="text-center"> 
            <input type="submit" name="submit" class="btn btn-secondary btn-lg"></button>
@@ -30,6 +34,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     </body>
 </html>
-<?php
-include('conn.php');
-?>
