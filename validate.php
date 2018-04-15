@@ -31,6 +31,7 @@ if (empty($firstname) || empty($lastname) || empty($email) || empty($message)) {
 }
 
 $stmt->execute();
+
 header("Location: index.php");
 $stmt->close();
 $conn->close();
