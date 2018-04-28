@@ -1,3 +1,0 @@
-**REUSABLE FORM**
-
-Prepared stmts
