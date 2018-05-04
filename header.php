@@ -7,7 +7,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <title>Web Form</title>
-        
+
     </head>
     <body>
     <div class="p-3 mb-2 bg-primary text-white">
@@ -20,7 +20,7 @@
            <input type="text" name="mail" class="form-control">
            <label for="note">Note</label>
            <textarea rows="4" cols="50" name="note" class="form-control form-control-lg mb-2" style="height:100px"></textarea>
-           <div class="text-center"> 
+           <div class="text-center">
            <input type="submit" name="submit" class="btn btn-secondary btn-lg"></button>
            </div>
        </form>
